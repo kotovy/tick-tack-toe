@@ -78,7 +78,7 @@ def display_result(player):
     text_rect = text.get_rect(center=(150, 150))
     screen.blit(text, text_rect)
 
-# Главный игровой цикл
+
 running = True
 while running:
     for event in pygame.event.get():
