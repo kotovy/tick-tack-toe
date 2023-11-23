@@ -13,8 +13,6 @@ pip install pygame
 How to Play
 Run the game by executing the provided script in a Python environment.
 
-bash
-Copy code
 python tic_tac_toe.py
 The game window will appear with a 3x3 grid.
 
