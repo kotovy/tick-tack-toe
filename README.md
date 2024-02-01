@@ -1,44 +1,33 @@
-Tic-Tac-Toe Game Readme
-Introduction
-This is a simple implementation of the classic Tic-Tac-Toe game using the Pygame library in Python. The game features a graphical user interface with a grid of cells, where two players take turns to place their symbol (either a cross or a nought) in an attempt to align three of their symbols either horizontally, vertically, or diagonally.
+# Tic-Tac-Toe Game
+A simple implementation of the classic Tic-Tac-Toe game using Pygame.
 
-Requirements
-Python 3.x
-Pygame library
-Installation
-Install Python: Download Python
-Install Pygame: Open a terminal and run the following command
-pip install pygame
+## Getting Started
+Ensure you have Python and Pygame installed on your system. You can install Pygame using the following command:
+`pip install pygame`
+Clone the repository or download the `tic_tac_toe.py` file to your local machine.
+Run the script: `python tic_tac_toe.py`
 
-How to Play
-Run the game by executing the provided script in a Python environment.
+# How to Play
+The game is played on a 3x3 grid.
+Two players take turns to place their symbol (Cross or Nought) on an empty cell.
+The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins the game.
+If the board is full and no player has won, the game is a draw.
 
-python tic_tac_toe.py
-The game window will appear with a 3x3 grid.
+## Controls
+Click on an empty cell with the left mouse button to make a move.
+To exit the game, click the close button on the window.
 
-Click on any cell to place your symbol. The game alternates between 'Cross' and 'Nought' players.
+## Game Logic
+The game checks for a winner after each move.
+If there is a winner, the game displays the result and stops further moves.
+The result is shown in the center of the screen.
 
-The game continues until one player wins by forming a line of three symbols horizontally, vertically, or diagonally, or until the board is filled, resulting in a draw.
+## Customization
+You can customize the appearance of the game by modifying constants such as CELL_SIZE, GRID_SIZE, BLACK, and WHITE in the script.
 
-If the game ends, a message will be displayed announcing the winner or a draw.
+## Acknowledgments
+This game was created using the Pygame library.
+Feel free to contribute, report issues, or suggest improvements to this simple yet entertaining Tic-Tac-Toe game!
 
-Close the game window to exit.
-
-Code Overview
-The game uses the Pygame library to create a graphical user interface.
-The board is represented as a 3x3 matrix, and players take turns updating the board.
-The game checks for a winner after each move and updates the display accordingly.
-The game loop continues until the player closes the window.
-Customization
-You can customize the size of the grid and cells by modifying the GRID_SIZE and CELL_SIZE constants.
-To change the symbols used in the game, modify the CROSS and NOUGHT constants.
-Feel free to modify the game's appearance and messages to suit your preferences.
-Acknowledgments
-This game was created using the Pygame library. Special thanks to the Pygame development team for providing a simple and effective framework for creating 2D games in Python.
-
-Have fun playing Tic-Tac-Toe!
-
-
-
-
-
+# Contributors
+[Kotovy] Feel free to contribute to and improve this project!
